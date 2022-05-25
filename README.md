@@ -1,43 +1,10 @@
 Water Me - Starter Code
 ==================================
 
-Starter code for the fourth independent project for Android Basics in Kotlin. This project pairs
-with Unit 6 of Android Basics in Kotlin
-
-Introduction
-------------
-
-This is the starter code for the Water Me app project. This project is an opportunity for you to
-demonstrate the concepts you learned in Unit 6 of Android Basics in Kotlin.
-
-Pre-requisites
---------------
-
-- Complete Unit 1 of Android Basics in Kotlin
-- Complete Project 1: Lemonade App
-- Complete Unit 2 of Android Basics in Kotlin
-- Complete Project 2: Dogglers
-- Complete Unit 3 of Android Basics in Kotlin
-- Complete Project 3: Lunch Tray
-- Complete Unit 4 of Android Basics in Kotlin
-- Complete Project 4: Amphibians
-- Complete Unit 5 of Android Basics in Kotlin
-- Complete Project 5: Forage
-- Complete Unit 6 of Android Basics in Kotlin
-
-Getting Started
----------------
-
-1. Download the starter code
-2. Open the project in Android Studio
-3. Complete the project in accordance with the app requirements
-
-
-Tasks
----------------
-
-Tips
-----
-
-- Use the provided tests to ensure your app is running as expected
-- DO NOT ALTER THE PROVIDED TESTS
+The application consists of a list of plants with their names, type of plant, simple description, and when they need to be watered. When the user launches the application, they will be presented with that list displayed using a recylerview. Since the application is using the WorkManager API, the one work reqeust is to create a reminder for when the plant needs to be watered. Since the request is guranteed to execute, it does not matter if the application is in focus for the user. When it is time to water any of the plants on the list, a notification will be pushed to the user's device. After clicking on the notification, it will launch the application again. 
+<br>
+<br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/57158277/170223833-b1b30a79-0f44-47a9-999f-fa685ebb9931.png" width="250">
+  <img src="https://user-images.githubusercontent.com/57158277/170224084-2ab7dd6c-b4e6-4166-96d9-ed11ff9e89a3.png" width="250">
+</p>
